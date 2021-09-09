@@ -1,2 +1,2 @@
 # CPractice
-This is a simple C program for learning
+This is a simple C program repository for learning
