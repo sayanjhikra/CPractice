@@ -15,9 +15,9 @@ int main()
 
            printf("Enter month number:");
            scanf("%c",&m);
+           printf("Enter month name:");
+           scanf("%c",&s);
 
-            printf("Enter month name:");
-            scanf("%c",&s);
             data[i][1]=s;
             data[i][0]=m;
         }
