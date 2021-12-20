@@ -17,7 +17,6 @@ int main (){
                 if(stri[i]==stri[k]){
                         int m;
                     for(m=k;m<s;m++){
-                            char g;
                         if(stri[m]=='0'){
                             break;
                         }
