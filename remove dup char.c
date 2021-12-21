@@ -10,6 +10,7 @@ int main (){
     while(stri[s]!='\0'){
         s++;
     }
+   // printf("%d",s);
     for(i=0;i<s;i++){
           if(stri[i]!='0'){
             for(int k=i+1;k<s;k++){
@@ -22,8 +23,13 @@ int main (){
                         stri[m]=stri[m+1];
                     }
                        stri[m]='0';
+                       i--;
+                       k--;
                 }
             }
+          }
+          else{
+            stri[i]='\0';
           }
     }
 
