@@ -22,7 +22,7 @@ int main (){
                         }
                         stri[m]=stri[m+1];
                     }
-                       stri[m]='0';
+                       stri[m-1]='0';
                        i--;
                        k--;
                 }
