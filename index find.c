@@ -14,15 +14,12 @@ int main ()
     {
         if(stri[i]==' '||i==0)
         {
-            int s=1,j=0,p;
-            if(i==0)
-            {
-                p=i;
-            }
-            else
+            int s=1,j=0,p=0;
+            if(i!=0)
             {
                 p=i+1;
             }
+
             while(srh[s-1]!='\0')
             {
                 if(srh[s-1]!=stri[(p+s)-1])
