@@ -87,10 +87,11 @@ printf("we are preparing for delivery\n");
 if(oq>=mq*.75){
 printf("Ordered items send \n");
 dq=oq;
+printf("%d\n",dq);
 }
 else{
 dq=0;
 }
-printf("%d\n",dq);
+//printf("%d\n",dq);
 return dq;
 }
